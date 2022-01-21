@@ -3,6 +3,12 @@
         "inherits": [
             "MCU_STM32L071xZ"
         ],
+        "components_add": [
+            "SX1272"
+        ],
+        "overrides": {
+            "clock_source": "USE_PLL_HSI"
+        },
         "device_name": "STM32L071RZ"
     }
 }
