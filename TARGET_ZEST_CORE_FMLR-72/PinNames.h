@@ -139,7 +139,13 @@ typedef enum {
     LORA_DIO4       = PC_5,
     LORA_DIO5       = PB_11,
     LORA_ANTSW_PWR  = PB_12,
-    
+
+    /**** SPI flash pins ****/
+    FLASH_SPI_MOSI  = PB_5,
+    FLASH_SPI_MISO  = PB_4,
+    FLASH_SPI_CLK   = PB_3,
+    FLASH_SPI_CS    = PB_13,
+
     /**** OSCILLATOR pins ****/
     RCC_OSC32_IN = PC_14,
     RCC_OSC32_OUT = PC_15,
