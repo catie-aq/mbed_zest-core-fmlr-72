@@ -46,7 +46,7 @@ MBED_WEAK const PinMap PinMap_ADC[] = {
     {NC, NC, 0}
 };
 
-// !!! SECTION TO BE CHECKED WITH DEVICE REFERENCE MANUAL
+// Internal ADC channels
 MBED_WEAK const PinMap PinMap_ADC_Internal[] = {
     {ADC_TEMP,   ADC_1,    STM_PIN_DATA_EXT(STM_MODE_ANALOG, GPIO_NOPULL, 0, 16, 0)},
     {ADC_VREF,   ADC_1,    STM_PIN_DATA_EXT(STM_MODE_ANALOG, GPIO_NOPULL, 0, 17, 0)},
